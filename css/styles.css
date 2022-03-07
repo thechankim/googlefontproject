@@ -9,40 +9,53 @@ html {
 .hero-content {
   width: 50%;
   text-align: center;
-  color: #000;
+  color: black;
 }
 
+.hero-content a{
+  background-color: rgb(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-content h2{
+  color:red;
+}
+
+
 p {
+  font-family:Arial, Helvetica, sans-serif;
   font-weight: 200;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 27px;
+  line-height: 35px;
 }
 
 a {
   margin-top: 30px;
   margin-right:10px;
-  background-color: rgb(0, 0, 0, 0.6);
+/*  background-color: rgb(0, 0, 0, 0.6);*/
   padding: 10px;
-  text-decoration: none;
-  color: #fff;
+/*  text-decoration: none;*/
+/*  color: #fff;*/
   display: inline-block;
 }
 
-span .font-pair1a{
+/*span .font-pair1a{
   font-family: 'Merriweather', serif;
 }
 
 span .font-pair1b{
   font-family: 'Merriweather+Sans', sans-serif;
-}
+}*/
 
 
 /*my css*/
 
 .hero-background {
-  background: url("https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
-  filter: brightness(120%);
-  filter: contrast(10%);
+/* HOW DO I PUT IMAGE BEHIND TEXT position:relative;*/
+  background: url("https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
+  filter: brightness(115%) opacity(60%) grayscale(100%);
+/*  filter: contrast(217%);*/
   background-size: cover;
 }
 
@@ -50,6 +63,38 @@ span .font-pair1b{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hero p{
+  font-size: 32px;
+  line-height: 41px;
+}
+
+.first-section-background {
+  background: url("https://images.pexels.com/photos/1000366/pexels-photo-1000366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed right;
+  filter: brightness(115%) opacity(60%) grayscale(100%);
+}
+
+.second-section-background {
+  background: url("https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed bottom;
+  filter: brightness(115%) opacity(60%) grayscale(100%);
+}
+
+.third-section-background {
+  background: url("https://images.pexels.com/photos/971546/pexels-photo-971546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed top right;
+  filter: brightness(115%) opacity(60%) grayscale(100%);
+}
+
+.with-background {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 50px 0;
 }
 
 h1{
@@ -66,10 +111,26 @@ h2{
 
 h3{
   font-family:'Courier New', Courier, monospace;
-  font-size:21px;
+  font-size:69px;
   letter-spacing:1px;
 }
 
-p{
-  font-family:Arial, Helvetica, sans-serif;
+
+article {
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.first-article-container {
+  background-color: white;
+
+}
+
+.second-article-container {
+  background-color: white;
+}
+
+.third-article-container {
+  background-color: white;
 }
