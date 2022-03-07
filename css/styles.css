@@ -41,6 +41,8 @@ span .font-pair1b{
 
 .hero-background {
   background: url("https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
+  filter: brightness(120%);
+  filter: contrast(10%);
   background-size: cover;
 }
 
