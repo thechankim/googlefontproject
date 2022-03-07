@@ -2,15 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  font-family: 'Oswald', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
+/* header {
   height: 100vh;
-}
+} */
 
 .hero-content {
   width: 50%;
@@ -59,19 +53,21 @@ span .font-pair1b{
 h1{
   font-size:42px;
   line-height:72px;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
   margin:0;
 }
 
 h2{
   font-size:28px;
-  font-family:'Courier New', Courier, monospace
+  font-family:'Courier New', Courier, monospace;
 }
 
 h3{
-  font-family:'Courier New', Courier, monospace
+  font-family:'Courier New', Courier, monospace;
+  font-size:21px;
+  letter-spacing:1px;
 }
 
 p{
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
 }
