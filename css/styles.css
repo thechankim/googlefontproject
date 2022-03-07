@@ -12,13 +12,13 @@ html {
   color: black;
 }
 
-.hero-content a{
+a.hero-content{
   background-color: rgb(0, 0, 0, 0.6);
   text-decoration: none;
   color: #fff;
 }
 
-.hero-content h2{
+h2.hero-content{
   color:red;
 }
 
@@ -65,7 +65,7 @@ span .font-pair1b{
   align-items: center;
 }
 
-.hero p{
+p.hero{
   font-size: 32px;
   line-height: 41px;
 }
