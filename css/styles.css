@@ -115,6 +115,9 @@ h3{
   letter-spacing:1px;
 }
 
+.first-article-container, .second-article-container, .third-article-container  {
+  position: relative;
+}
 
 article {
   max-width: 50%;
