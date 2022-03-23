@@ -2,61 +2,82 @@ html {
   scroll-behavior: smooth;
 }
 
-/* header {
+.hidden {
+ display: none; 
+}
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
   height: 100vh;
-} */
+}
 
 .hero-content {
-  width: 50%;
+  width: 700px;
   text-align: center;
-  color: black;
+  color: #000;
 }
 
-a.hero-content{
-  background-color: rgb(0, 0, 0, 0.6);
-  text-decoration: none;
-  color: #fff;
+.hero-content p{
+  margin: auto 50px;
+  font-weight:500;
+/*   background-color:white; */
+/*  filter: blur(8px);
+  -webkit-filter: blur(8px);*/
 }
-
-h2.hero-content{
-  color:red;
-}
-
 
 p {
-  font-family:Arial, Helvetica, sans-serif;
   font-weight: 200;
-  font-size: 27px;
-  line-height: 35px;
+  font-size: 13px;
+  line-height: 21px;
 }
 
 a {
-  margin-top: 30px;
+  margin-top: 0;
   margin-right:10px;
-/*  background-color: rgb(0, 0, 0, 0.6);*/
+  margin-bottom: 10px;
+  background-color: rgb(0, 0, 0, 0.6);
   padding: 10px;
-/*  text-decoration: none;*/
-/*  color: #fff;*/
+  text-decoration: none;
+  color: #fff;
   display: inline-block;
 }
 
+nav {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom:15px;
+  position: fixed;
+  top: 0;
+  background-color:#FFFFFF;
+/*  z-index: 1;*/
+}
+
 /*span .font-pair1a{
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 span .font-pair1b{
-  font-family: 'Merriweather+Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }*/
 
 
-/*my css*/
+/* add your css below this line */
+
 
 .hero-background {
-/* HOW DO I PUT IMAGE BEHIND TEXT position:relative;*/
-  background: url("https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center;
-  filter: brightness(115%) opacity(60%) grayscale(100%);
-/*  filter: contrast(217%);*/
+  background: url("https://images.unsplash.com/photo-1612196808827-9ff25cb6137a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80") no-repeat fixed center;
   background-size: cover;
+  background-color:;
+/*  opacity:.85;*/
+  width: 700px;
+  margin:0 auto;
+/*  height: auto;*/
 }
 
 .hero {
@@ -65,59 +86,78 @@ span .font-pair1b{
   align-items: center;
 }
 
-p.hero{
-  font-size: 32px;
-  line-height: 41px;
-}
-
 .first-section-background {
-  background: url("https://images.pexels.com/photos/1000366/pexels-photo-1000366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed right;
-  filter: brightness(115%) opacity(60%) grayscale(100%);
+  background: url("https://images.unsplash.com/photo-1540551079-b1236c0cd8ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80") no-repeat fixed bottom;
+/*  filter: blur(8px);
+  -webkit-filter: blur(8px);*/
 }
 
 .second-section-background {
-  background: url("https://images.pexels.com/photos/1774986/pexels-photo-1774986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed bottom;
-  filter: brightness(115%) opacity(60%) grayscale(100%);
+  background: url("https://images.unsplash.com/photo-1631724604275-af3bbb5c904d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80") no-repeat fixed bottom;
 }
 
 .third-section-background {
-  background: url("https://images.pexels.com/photos/971546/pexels-photo-971546.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed top right;
-  filter: brightness(115%) opacity(60%) grayscale(100%);
+  background: url("https://images.unsplash.com/photo-1560792523-9b3e98060a4d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=994&q=80") no-repeat fixed bottom;
 }
 
 .with-background {
   background-size: cover;
-  height: 100vh;
+/*  width:70vh;*/
+  width: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin:0 auto;
+  height:70%;
 }
 
-section {
+/*section {
   padding: 50px 0;
+}*/
+
+h1 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 400;
+  margin: 0;
+  font-family:DM mono;
 }
 
-h1{
-  font-size:42px;
-  line-height:72px;
-  font-family:Arial, Helvetica, sans-serif;
-  margin:0;
+h2 {
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 40px;
+  font-family:DM mono;
 }
 
-h2{
-  font-size:28px;
-  font-family:'Courier New', Courier, monospace;
+h3 {
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 60px;
+  margin: 0;
 }
 
-h3{
-  font-family:'Courier New', Courier, monospace;
-  font-size:69px;
-  letter-spacing:1px;
+h5 {
+  display:inline;
+  padding:5px;
 }
 
-.first-article-container, .second-article-container, .third-article-container  {
-  position: relative;
+span {
+  font-size:45px;
 }
+
+/*.number {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: -25px;
+  right: -25px;
+  font-weight: 30px;
+  line-height: 50px;
+}*/
 
 article {
   max-width: 50%;
@@ -125,15 +165,28 @@ article {
   padding: 50px;
 }
 
-.first-article-container {
-  background-color: white;
+/*.first-article-container, .second-article-container, .third-article-container  {
+  position: relative;
+}*/
 
+.first-article-container {
+  background-color: #b3a291;
 }
 
 .second-article-container {
-  background-color: white;
+  background-color: #c8c5c2;
 }
 
 .third-article-container {
-  background-color: white;
+  background-color: #cbc1b0;
 }
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+ 
+
+
