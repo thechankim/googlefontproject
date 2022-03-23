@@ -2,9 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* I Hid this because the JQuery doesnt run on Github? for me.
 .hidden {
  display: none; 
-}
+} */
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
