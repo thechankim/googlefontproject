@@ -20,6 +20,22 @@ header {
   width: 700px;
   text-align: center;
   color: #000;
+  position:relative;
+  height:1200px;
+}
+
+.hero-content-inner {
+  position:absolute;
+  z-index:10;
+  width:700px;
+  height:500px;
+  top:30%;
+}
+
+.hero-position{
+  position:absolute;
+  margin: auto 90px;
+  line-height:20px;
 }
 
 .hero-content p{
@@ -55,7 +71,7 @@ nav {
   position: fixed;
   top: 0;
   background-color:#FFFFFF;
-/*  z-index: 1;*/
+  z-index: 11;
 }
 
 /*span .font-pair1a{
@@ -76,8 +92,11 @@ span .font-pair1b{
   background-color:#66f542;
 /*  opacity:.85;*/
   width: 700px;
-  margin:0 auto;
   height:1200px;
+  top:0;
+  margin:0 auto;
+  z-index:1;
+  position:absolute;
 /*   display: inline-block; */
 /*  height: auto;*/
 }
@@ -112,7 +131,7 @@ span .font-pair1b{
   justify-content: center;
   align-items: center;
   margin:0 auto;
-  height:1200px;
+  height:70%;
 }
 
 /*section {
