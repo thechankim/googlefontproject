@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $('div.hidden').fadeIn(1000).removeClass('hidden');
+    $('header.hero-background').fadeOut(1000);
 });

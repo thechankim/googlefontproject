@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 
-/* I Hid this because the JQuery doesnt run on Github? for me.
-.hidden {
+
+/* .hidden {
  display: none; 
 } */
 
