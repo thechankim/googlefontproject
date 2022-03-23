@@ -1,1 +1,3 @@
-console.log(type of $);
+$(document).ready(function () {
+    $('div.hidden').fadeIn(1000).removeClass('hidden');
+});
