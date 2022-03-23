@@ -3,7 +3,8 @@ $(document).ready(function () {
    
  $(window).scroll(function(){
      if ($(this).scrollTop() > 50) {
-     $('header.hero-background').fadeOut(6000);
+     $('header.hero-background').fadeOut(4000);
+     $('div.hidden').fadeIn(1000).removeClass('hidden');
      }
  });
  });
